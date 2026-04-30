@@ -3328,8 +3328,8 @@ input, select, textarea {
 }
 
 .headshot {
-  width: 300px !important;
-  height: 300px !important;
+  width: 270px !important;
+  height: 270px !important;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 2em;
