@@ -3305,7 +3305,7 @@ input, select, textarea {
 /* === AUTUMN CUSTOM HERO === */
 
 #header {
-  background-attachment: scroll, scroll, fixed;
+  background-attachment: scroll, scroll, fixed !important;
   background-image:
     url("images/top-3200.svg"),
     linear-gradient(rgba(46,46,46,0.7), rgba(46,46,46,0.7)),
