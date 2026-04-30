@@ -3305,11 +3305,14 @@ input, select, textarea {
 /* === AUTUMN CUSTOM HERO === */
 
 .headshot {
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 30px;
+
+	position: relative;
+	z-index: 1;
 }
 
 #header {
@@ -3332,7 +3335,17 @@ input, select, textarea {
     cover;
 }
 
-#header:before,
+/* #header:before,
 #header:after {
-  display: none !important;
+  display: none !important; */
+
+#header:before {
+  display: block;
+  z-index: 0;
+}
+
+#header:after {
+  display: none;
+}
+
 }
