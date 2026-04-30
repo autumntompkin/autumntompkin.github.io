@@ -3363,8 +3363,8 @@ input, select, textarea {
   margin-bottom: 1.5em;
 }
 
-.about-section p {
-  border: none !important;
+.about-section h2 {
+  margin-bottom: 0.75em !important;
 }
 
 
