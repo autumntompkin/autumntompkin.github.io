@@ -3362,3 +3362,38 @@ input, select, textarea {
 .about-section h2 {
   margin-bottom: 1.5em;
 }
+
+
+/* === RISK SECTION === */
+
+.risk-section {
+  padding: 4em 0;
+}
+
+.risk-box {
+  background: #4b3b47; /* nice muted purple */
+  border-radius: 25px;
+  padding: 3em 2.5em;
+  text-align: center;
+  color: white;
+}
+
+.risk-box h2 {
+  margin-bottom: 1.5em;
+}
+
+.risk-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.risk-list li {
+  margin-bottom: 0.75em;
+  font-size: 1.25em;
+  letter-spacing: 0.05em;
+}
+
+.risk-box {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
