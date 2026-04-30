@@ -3346,3 +3346,19 @@ input, select, textarea {
 #header:after {
   display: none !important;
 }
+
+
+/* === ABOUT SECTION === */
+
+.about-section p {
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0.08em;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  color: #6e6e6e;
+}
+
+.about-section h2 {
+  margin-bottom: 1.5em;
+}
