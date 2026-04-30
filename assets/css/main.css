@@ -3350,12 +3350,10 @@ input, select, textarea {
 
 /* === ABOUT SECTION === */
 
-.about-section h2 {
-  margin-bottom: 0.75em !important;
-}
-
-.about-section h2:after {
-  display: none !important;
+/* remove only the line under ABOUT ME */
+.about-section p:first-of-type {
+  border-top: none !important;
+  padding-top: 0 !important;
 }
 
 .about-section p {
