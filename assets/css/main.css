@@ -3304,16 +3304,6 @@ input, select, textarea {
 
 /* === AUTUMN CUSTOM HERO === */
 
-.headshot {
-  width: 320px !important;
-  height: 320px !important;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 2;
-}
-
 #header {
   background-attachment: scroll, scroll, scroll;
   background-image:
@@ -3329,30 +3319,28 @@ input, select, textarea {
     no-repeat,
     no-repeat;
   background-size:
-    3200px 460px,
+    3200px 300px,
     cover,
     cover;
+  padding: 5em 0 10em 0 !important;
+  position: relative;
+  text-align: center;
+}
+
+.headshot {
+  width: 280px !important;
+  height: 280px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2em;
+  position: relative;
+  z-index: 2;
 }
 
 #header:before {
   display: block !important;
-  z-index: 1;
-  opacity: 0.12;
-}
-
-#header {
-  padding: 6em 0 10em 0 !important;
-}
-
-#header {
-  height: 650px;
-  overflow: hidden;
-}
-
-#header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  opacity: 0.08;
+  z-index: 0;
 }
 
 #header:after {
