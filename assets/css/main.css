@@ -3350,6 +3350,14 @@ input, select, textarea {
 
 /* === ABOUT SECTION === */
 
+.about-section h2 {
+  margin-bottom: 0.75em !important;
+}
+
+.about-section h2:after {
+  display: none !important;
+}
+
 .about-section p {
   text-align: left;
   text-transform: none;
@@ -3358,15 +3366,6 @@ input, select, textarea {
   line-height: 1.5em;
   color: #6e6e6e;
 }
-
-.about-section h2 {
-  margin-bottom: 1.5em;
-}
-
-.about-section h2 {
-  margin-bottom: 0.75em !important;
-}
-
 
 /* === RISK SECTION === */
 
