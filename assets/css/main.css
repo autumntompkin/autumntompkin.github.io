@@ -3322,14 +3322,14 @@ input, select, textarea {
     3200px 300px,
     cover,
     cover;
-  padding: 5em 0 10em 0 !important;
+  padding: 4em 0 8em 0 !important;
   position: relative;
   text-align: center;
 }
 
 .headshot {
-  width: 280px !important;
-  height: 280px !important;
+  width: 300px !important;
+  height: 300px !important;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 2em;
