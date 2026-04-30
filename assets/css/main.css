@@ -3300,3 +3300,30 @@ input, select, textarea {
 				}
 
 	}
+
+
+/* Added Code for Customization */
+
+/* === CUSTOM CHANGES === */
+
+.headshot {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+#header:before,
+#header:after {
+  display: none !important;
+}
+
+#header {
+  background-image: 
+    linear-gradient(rgba(46,46,46,0.75), rgba(46,46,46,0.75)),
+    url("../images/hero-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
