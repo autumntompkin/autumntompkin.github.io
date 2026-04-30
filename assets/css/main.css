@@ -3319,27 +3319,36 @@ input, select, textarea {
     no-repeat,
     no-repeat;
   background-size:
-    3200px 300px,
+    3200px 260px,
     cover,
     cover;
-  padding: 4em 0 8em 0 !important;
+  padding: 3.5em 0 7em 0 !important;
   position: relative;
   text-align: center;
 }
 
 .headshot {
-  width: 270px !important;
-  height: 270px !important;
+  width: 245px !important;
+  height: 245px !important;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   position: relative;
   z-index: 2;
 }
 
+#header h1 {
+  font-size: 2.25em !important;
+  margin-bottom: 0.25em !important;
+}
+
+#header p {
+  font-size: 1.25em !important;
+}
+
 #header:before {
   display: block !important;
-  opacity: 0.08;
+  opacity: 0.06;
   z-index: 0;
 }
 
