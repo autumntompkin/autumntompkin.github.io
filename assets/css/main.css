@@ -3603,11 +3603,9 @@ input, select, textarea {
 
 /* MOBILE FIX: Qualifications */
 @media screen and (max-width: 736px) {
-  .qualifications {
-    font-size: 0.9em !important;
-    line-height: 1.5em !important;
-    padding-left: 1em !important;
-    padding-right: 1em !important;
+  .qualifications br {
+    display: block;
+    margin-bottom: 0.5em;
   }
 }
 
