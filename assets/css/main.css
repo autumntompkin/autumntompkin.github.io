@@ -3485,14 +3485,7 @@ input, select, textarea {
 /* === SKILLS SECTION === */
 
 .skills-section {
-  border: none;
-  padding: 0;
-  margin-bottom: 6em;
-}
-
-.skills-section:before,
-.skills-section:after {
-  display: none;
+  margin: 0 auto 6em auto;
 }
 
 .skills-box {
@@ -3505,17 +3498,15 @@ input, select, textarea {
 
 .skills-box h2 {
   color: #ffffff;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
 }
 
 .skills-box p {
   color: #ffffff;
+  font-size: 1em;
   font-weight: 700;
-  letter-spacing: 0.18em;
-  line-height: 2.2em;
-  text-transform: none;
-  border-top: 0;
-  padding: 0;
+  letter-spacing: 0.08em;
+  line-height: 2em;
   margin: 0;
-  font-size: 1.05em;
+  text-transform: none;
 }
