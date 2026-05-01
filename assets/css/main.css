@@ -3399,3 +3399,43 @@ input, select, textarea {
   margin-bottom: 0.75em;
   font-size: 1.2em;
 }
+
+/* === PORTFOLIO SECTION === */
+
+.portfolio-section {
+  margin-top: 4em;
+}
+
+.portfolio-row {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  margin-bottom: 4em;
+}
+
+.portfolio-row.reverse {
+  justify-content: flex-end;
+}
+
+.portfolio-image,
+.portfolio-text {
+  width: 50%;
+}
+
+.portfolio-image img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-text h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.portfolio-text p {
+  margin-bottom: 1.5em;
+}
+
+.portfolio-text a {
+  font-weight: bold;
+}
