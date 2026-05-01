@@ -3592,3 +3592,12 @@ input, select, textarea {
   }
 }
 
+/* ICON HOVER */
+.image.icon:hover:before {
+  transform: scale(1.15);
+}
+
+.image.icon:hover:after {
+  opacity: 1;
+}
+
