@@ -3484,29 +3484,21 @@ input, select, textarea {
 
 /* === SKILLS SECTION === */
 
-.skills-section {
-  margin: 0 auto 6em auto;
-}
-
-.skills-box {
-  background: #4b3b47;
-  color: #ffffff;
-  border-radius: 22px;
-  padding: 3em 2em;
-  text-align: center;
-}
-
-.skills-box h2 {
-  color: #ffffff;
-  margin-bottom: 1.25em;
+.skills-divider p {
+  border-top: none !important;
+  padding-top: 0 !important;
 }
 
 .skills-box p {
   color: #ffffff;
   font-size: 1em;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 2em;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8em;
   margin: 0;
   text-transform: none;
+}
+
+.skills-box h2 {
+  color: #ffffff;
 }
