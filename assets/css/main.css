@@ -3566,3 +3566,13 @@ input, select, textarea {
     display: none;
   }
 }
+
+
+/* MOBILE FIX: prevent long titles from shrinking */
+@media screen and (max-width: 736px) {
+  .experience-section h2 {
+    font-size: 1.75em !important;
+    line-height: 1.4em;
+    letter-spacing: 0.08em;
+  }
+}
