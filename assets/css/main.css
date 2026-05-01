@@ -3484,6 +3484,10 @@ input, select, textarea {
 
 /* === SKILLS SECTION === */
 
+.skills-box h2 {
+  color: #ffffff !important;
+}
+
 .skills-box {
   background: #4b3b47;
   color: #ffffff;
