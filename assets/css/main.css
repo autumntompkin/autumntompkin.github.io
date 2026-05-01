@@ -3423,7 +3423,9 @@ input, select, textarea {
   left: 50% !important;
   top: 50% !important;
   margin: 0 !important;
-  transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  transition: transform 0.15s ease-in-out;
 }
 
 #portfolio .content {
@@ -3593,15 +3595,10 @@ input, select, textarea {
 }
 
 /* ICON HOVER */
-#portfolio .image.icon:before {
-  transform-origin: center center !important;
-  transition: transform 0.15s ease-in-out !important;
-}
-
 #portfolio .image.icon:hover:before {
-  transform: scale(1.15) !important;
+  transform: translate(-50%, -50%) scale(1.15);
 }
 
 #portfolio .image.icon:hover:after {
-  opacity: 1 !important;
+  opacity: 1;
 }
