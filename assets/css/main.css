@@ -3582,3 +3582,12 @@ input, select, textarea {
     letter-spacing: 0.08em;
   }
 }
+
+/* MOBILE FIX: parallax */
+@media screen and (max-width: 736px) {
+  #header {
+    background-attachment: scroll !important;
+    background-position: center top !important;
+    background-size: cover !important;
+  }
+}
