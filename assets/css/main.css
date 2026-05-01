@@ -3579,7 +3579,7 @@ input, select, textarea {
 
 @media screen and (max-width: 736px) {
   .experience-section h3 {
-    font-size: 1.05em;
+    font-size: 0.9em;
     letter-spacing: 0.08em;
   }
 }
