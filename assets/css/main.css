@@ -3511,9 +3511,25 @@ input, select, textarea {
 }
 
 
-/* === FOOTER BUTTON === */
+/* === FOOTER === */
+
+.footer-heading {
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 0;
+  background: transparent;
+}
+
+.footer-heading h2 {
+  color: #ffffff !important;
+  margin-bottom: 1em;
+}
+
+#footer p {
+  color: #ffffff;
+}
 
 #footer .button.primary {
   background: #ffffff;
-  color: #4b3b47;
+  color: #4eb980 !important;
 }
