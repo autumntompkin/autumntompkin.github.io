@@ -3490,10 +3490,7 @@ input, select, textarea {
   border-radius: 22px;
   padding: 3em 2em;
   text-align: center;
-}
-
-.skills-box h2 {
-  color: #ffffff;
+  margin-bottom: 4em;
 }
 
 .skills-list {
@@ -3504,7 +3501,7 @@ input, select, textarea {
 
 .skills-list li {
   color: #ffffff;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 2em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.8em;
 }
