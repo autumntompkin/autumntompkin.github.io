@@ -3600,6 +3600,17 @@ input, select, textarea {
   }
 }
 
+
+/* MOBILE FIX: Qualifications */
+@media screen and (max-width: 736px) {
+  .qualifications {
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+}
+
 /* ICON HOVER */
 #portfolio .image.icon:hover:before {
   transform: translate(-50%, -50%) scale(1.15);
