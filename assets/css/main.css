@@ -3601,3 +3601,19 @@ input, select, textarea {
   opacity: 1;
 }
 
+
+
+
+#portfolio .image.icon:before {
+  transition: font-size 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+#portfolio .image.icon:hover:before {
+  font-size: 7em !important;
+  transform: translateZ(1em) scale(1.08) !important;
+}
+
+#portfolio .image.icon:hover:after {
+  opacity: 1 !important;
+}
+
