@@ -3591,3 +3591,7 @@ input, select, textarea {
     background-size: cover !important;
   }
 }
+
+.feature:before {
+  pointer-events: none;
+}
