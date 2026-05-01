@@ -3592,6 +3592,10 @@ input, select, textarea {
   }
 }
 
-.feature:before {
-  pointer-events: none;
+@media screen and (min-width: 737px) {
+  #portfolio .feature .image img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+  }
 }
