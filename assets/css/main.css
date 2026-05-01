@@ -3533,3 +3533,36 @@ input, select, textarea {
   background: #ffffff;
   color: #4eb980 !important;
 }
+
+/* MOBILE FIX: prevent portfolio cards from getting cut off */
+@media screen and (max-width: 736px) {
+  #portfolio .feature {
+    height: auto !important;
+    margin-bottom: 2em;
+  }
+
+  #portfolio .feature .image {
+    display: block;
+    width: 100%;
+    height: 14em;
+    float: none !important;
+  }
+
+  #portfolio .feature .image img {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  #portfolio .feature .content {
+    display: block;
+    width: 100%;
+    padding: 2em 1.25em !important;
+    text-align: center;
+  }
+
+  #portfolio .feature:before {
+    display: none;
+  }
+}
