@@ -3509,3 +3509,11 @@ input, select, textarea {
   letter-spacing: 0.04em;
   line-height: 1.8em;
 }
+
+
+/* === FOOTER BUTTON === */
+
+#footer .button.primary {
+  background: #ffffff;
+  color: #4b3b47;
+}
