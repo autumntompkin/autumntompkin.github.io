@@ -3574,18 +3574,11 @@ input, select, textarea {
     font-size: 1.1em !important;
     line-height: 1.6em;
     letter-spacing: 0.12em;
+    margin-bottom: 1em !important;
   }
-}
 
-@media screen and (max-width: 736px) {
   .experience-section h3 {
-    font-size: 0.9em;
+    font-size: 1.02em;
     letter-spacing: 0.08em;
-  }
-}
-
-@media screen and (max-width: 736px) {
-  .experience-section h2 {
-    margin-bottom: 1em;
   }
 }
