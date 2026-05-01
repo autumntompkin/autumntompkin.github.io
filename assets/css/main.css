@@ -3365,6 +3365,12 @@ input, select, textarea {
   color: #6e6e6e;
 }
 
+.qualifications {
+  text-align: center;
+  line-height: 1.6em;
+  word-break: break-word;
+}
+
 /* === RISK SECTION === */
 
 .risk-section {
