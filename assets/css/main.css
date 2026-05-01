@@ -3486,7 +3486,6 @@ input, select, textarea {
 
 .skills-section {
   margin: 0 auto 6em auto;
-  position: relative;
 }
 
 .skills-box {
@@ -3505,11 +3504,9 @@ input, select, textarea {
 .skills-box p {
   color: #ffffff;
   font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  line-height: 1.8em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 2em;
   margin: 0;
-  padding: 0;
-  border-top: none;
   text-transform: none;
 }
