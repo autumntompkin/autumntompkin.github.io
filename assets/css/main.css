@@ -3403,7 +3403,11 @@ input, select, textarea {
 /* === PORTFOLIO SECTION === */
 
 #portfolio .feature {
-  height: 23em;
+  height: 22em;
+}
+
+#portfolio .feature .image {
+  overflow: hidden;
 }
 
 #portfolio .feature .image img {
@@ -3415,17 +3419,24 @@ input, select, textarea {
   object-position: center;
 }
 
+#portfolio .image.icon:before {
+  left: 50% !important;
+  top: 50% !important;
+  margin: 0 !important;
+  transform: translate(-50%, -50%) !important;
+}
+
 #portfolio .content {
-  font-size: 0.85em;
+  font-size: 0.82em;
 }
 
 #portfolio .content h3 {
-  margin-bottom: 1em;
+  margin-bottom: 0.9em;
 }
 
 #portfolio .content p {
-  margin-bottom: 1.1em;
-  line-height: 1.45em;
+  margin-bottom: 1em;
+  line-height: 1.5em;
 }
 
 #portfolio .content a {
