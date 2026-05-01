@@ -3583,3 +3583,9 @@ input, select, textarea {
     letter-spacing: 0.08em;
   }
 }
+
+@media screen and (max-width: 736px) {
+  .experience-section h2 {
+    margin-bottom: 1em;
+  }
+}
