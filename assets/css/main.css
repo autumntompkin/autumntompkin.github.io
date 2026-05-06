@@ -3806,3 +3806,10 @@ ul.actions.stacked-buttons .button {
   height: 100%;
   border: 0;
 }
+
+/* === NAVY BOX COLOR === */
+
+.risk-box,
+.skills-box {
+  background: #17324d !important;
+}
