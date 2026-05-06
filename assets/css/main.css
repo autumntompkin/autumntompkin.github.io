@@ -3616,3 +3616,27 @@ input, select, textarea {
 #portfolio .image.icon:hover:after {
   opacity: 1;
 }
+
+
+
+
+/* Flagship Portfolio Project */
+
+.flagship-project {
+  text-align: center;
+}
+
+.flagship-project h2 {
+  margin-bottom: 1em;
+}
+
+.flagship-project p {
+  text-align: left;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flagship-project .actions {
+  margin-top: 2em;
+}
