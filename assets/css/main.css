@@ -29,6 +29,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+
+/* Soften section header dividers */
+header.major {
+  border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+  margin-bottom: 2em !important;
+}
+
+header.major:before,
+header.major:after {
+  opacity: 0.25 !important;
+}
+
 body {
 	line-height: 1;
 }
