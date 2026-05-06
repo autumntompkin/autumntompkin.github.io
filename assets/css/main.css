@@ -3809,20 +3809,12 @@ ul.actions.stacked-buttons .button {
   background: #17324d !important;
 }
 
-/* === FIX FOOTER OVERLAP + FOOTER COLOR === */
 
-#footer {
-  background: #1b89dc !important;
-  margin-top: 4em !important;
-  padding: 5em 0 4em 0 !important;
-  clear: both !important;
-}
+/* === FOOTER + SKILLS FINAL FIX === */
 
 .skills-box {
-  margin-bottom: 4em !important;
+  margin-bottom: 1.5em !important;
 }
-
-/* === FIX FOOTER DESIGN === */
 
 #footer {
   background-color: #1b89dc !important;
@@ -3830,28 +3822,35 @@ ul.actions.stacked-buttons .button {
   background-position: top center !important;
   background-repeat: repeat-x !important;
   background-size: 3200px 460px !important;
-  margin-top: -160px !important;
-  padding: calc(460px + 4em) 0 6em 0 !important;
+  margin-top: -120px !important;
+  padding: calc(360px + 3em) 0 6em 0 !important;
+  clear: both !important;
   position: relative !important;
   text-align: center !important;
 }
 
-/* Remove the vertical line through the footer */
+/* Remove vertical center line */
 #footer:before {
   display: none !important;
 }
 
-/* Fix footer button color */
+/* Footer button */
 #footer .button,
-#footer .button.primary {
+#footer .button.primary,
+#footer a.button,
+#footer a.button.primary {
   background: #ffffff !important;
   color: #1b89dc !important;
-  box-shadow: none !important;
   border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 #footer .button:hover,
-#footer .button.primary:hover {
+#footer .button.primary:hover,
+#footer a.button:hover,
+#footer a.button.primary:hover {
   background: #e8f4ff !important;
   color: #1269aa !important;
+  border-bottom: none !important;
 }
