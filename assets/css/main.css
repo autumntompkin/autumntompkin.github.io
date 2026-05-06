@@ -3522,6 +3522,19 @@ input, select, textarea {
   margin-bottom: 4em;
 }
 
+/* Fix skills box clipping */
+.skills-box {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+  padding-bottom: 3em !important;
+}
+
+.skills-box p {
+  margin-bottom: 0 !important;
+  line-height: 1.7em !important;
+}
+
 .skills-list {
   list-style: none;
   margin: 0;
