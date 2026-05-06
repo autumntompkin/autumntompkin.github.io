@@ -3753,21 +3753,6 @@ ul.actions.stacked-buttons .button {
   text-align: center;
 }
 
-/* === AUTUMN BLUE ACCENT COLOR === */
-
-/* Portfolio regular text links only, not buttons */
-#portfolio a:not(.button),
-.flagship-project a:not(.button) {
-  color: #17324d !important;
-  border-bottom-color: rgba(27, 137, 220, 0.35) !important;
-}
-
-#portfolio a:not(.button):hover,
-.flagship-project a:not(.button):hover {
-  color: #17324d !important;
-  border-bottom-color: transparent !important;
-}
-
 /* Footer resume button */
 #footer .button {
   background: #ffffff !important;
@@ -3896,12 +3881,22 @@ ul.actions.stacked-buttons .button {
 }
 
 
-/* === PORTFOLIO BUTTONS NAVY === */
+/* === PORTFOLIO LINKS + FLAGSHIP BUTTONS === */
 
-.flagship-project .button,
-.flagship-project .button.primary,
-.flagship-project a.button,
-.flagship-project a.button.primary {
+/* Portfolio text links */
+#portfolio .content a:not(.button) {
+  color: #1b89dc !important;
+  border-bottom-color: rgba(27, 137, 220, 0.35) !important;
+}
+
+#portfolio .content a:not(.button):hover {
+  color: #1269aa !important;
+  border-bottom-color: transparent !important;
+}
+
+/* Flagship project buttons only */
+.flagship-project ul.actions a.button,
+.flagship-project ul.actions a.button.primary {
   background: #17324d !important;
   color: #ffffff !important;
   border: none !important;
@@ -3909,10 +3904,8 @@ ul.actions.stacked-buttons .button {
   box-shadow: none !important;
 }
 
-.flagship-project .button:hover,
-.flagship-project .button.primary:hover,
-.flagship-project a.button:hover,
-.flagship-project a.button.primary:hover {
+.flagship-project ul.actions a.button:hover,
+.flagship-project ul.actions a.button.primary:hover {
   background: #1f3f5f !important;
   color: #ffffff !important;
   border-bottom: none !important;
