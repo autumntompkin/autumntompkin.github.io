@@ -3885,3 +3885,26 @@ ul.actions.stacked-buttons .button {
   color: #1269aa !important;
   border-bottom: none !important;
 }
+
+
+/* === PORTFOLIO BUTTONS NAVY === */
+
+.flagship-project .button,
+.flagship-project .button.primary,
+.flagship-project a.button,
+.flagship-project a.button.primary {
+  background: #17324d !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.flagship-project .button:hover,
+.flagship-project .button.primary:hover,
+.flagship-project a.button:hover,
+.flagship-project a.button.primary:hover {
+  background: #1f3f5f !important;
+  color: #ffffff !important;
+  border-bottom: none !important;
+}
