@@ -3810,20 +3810,25 @@ ul.actions.stacked-buttons .button {
 }
 
 
-/* === FOOTER + SKILLS FINAL FIX === */
+/* === FOOTER + SKILLS FINAL SAFE FIX === */
 
+/* Give Skills room before footer starts */
 .skills-box {
-  margin-bottom: 1.5em !important;
+  margin-bottom: 5em !important;
+  overflow: visible !important;
 }
 
+/* Footer with blue color + V shape, but NO overlap */
 #footer {
   background-color: #1b89dc !important;
   background-image: url("images/bottom-3200.svg") !important;
   background-position: top center !important;
   background-repeat: repeat-x !important;
   background-size: 3200px 460px !important;
-  margin-top: -120px !important;
-  padding: calc(360px + 3em) 0 6em 0 !important;
+
+  margin-top: 0 !important;
+  padding: calc(300px + 3em) 0 5em 0 !important;
+
   clear: both !important;
   position: relative !important;
   text-align: center !important;
@@ -3834,11 +3839,26 @@ ul.actions.stacked-buttons .button {
   display: none !important;
 }
 
-/* Footer button */
+/* Footer text */
+#footer,
+#footer p,
+#footer h2,
+#footer strong,
+#footer li {
+  color: #ffffff !important;
+}
+
+/* Footer links */
+#footer a:not(.button) {
+  color: #ffffff !important;
+  border-bottom-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* Footer resume button */
+#footer ul.actions li a.button,
+#footer ul.actions li a.button.primary,
 #footer .button,
-#footer .button.primary,
-#footer a.button,
-#footer a.button.primary {
+#footer .button.primary {
   background: #ffffff !important;
   color: #1b89dc !important;
   border: none !important;
@@ -3846,10 +3866,16 @@ ul.actions.stacked-buttons .button {
   box-shadow: none !important;
 }
 
+/* Force button text color if theme is being stubborn */
+#footer ul.actions li a.button *,
+#footer ul.actions li a.button.primary * {
+  color: #1b89dc !important;
+}
+
+#footer ul.actions li a.button:hover,
+#footer ul.actions li a.button.primary:hover,
 #footer .button:hover,
-#footer .button.primary:hover,
-#footer a.button:hover,
-#footer a.button.primary:hover {
+#footer .button.primary:hover {
   background: #e8f4ff !important;
   color: #1269aa !important;
   border-bottom: none !important;
