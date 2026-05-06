@@ -3566,7 +3566,7 @@ input, select, textarea {
 
 
 
-/* Fix Making Risk Simple readability */
+/* FIX MAKING RISK SIMPLE */
 
 .simple-risk-box {
   margin-top: 2.5em;
@@ -3703,7 +3703,7 @@ input, select, textarea {
 
 
 
-/* Flagship Portfolio Project */
+/* FLAGSHIP PORTFOLIO PROJECT */
 
 .flagship-project {
   text-align: center;
@@ -3726,7 +3726,7 @@ input, select, textarea {
 
 
 
-/* Header buttons */
+/* HEADER BUTTONS */
 
 .header-buttons {
   margin-top: 2em;
@@ -3742,4 +3742,21 @@ input, select, textarea {
 .header-buttons .hero-button:hover {
   background: #f1f1f1 !important;
   color: #000000 !important;
+}
+
+/* STACK PROJECT BUTTONS */
+ul.actions.stacked-buttons {
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1em !important;
+}
+
+ul.actions.stacked-buttons li {
+  display: block !important;
+  padding-left: 0 !important;
+}
+
+ul.actions.stacked-buttons .button {
+  min-width: 240px;
+  text-align: center;
 }
