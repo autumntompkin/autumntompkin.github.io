@@ -3807,6 +3807,13 @@ ul.actions.stacked-buttons .button {
   border: 0;
 }
 
+/* === NAVY BOX COLOR === */
+
+.risk-box,
+.skills-box {
+  background: #17324d !important;
+}
+
 /* === FIX FOOTER OVERLAP === */
 
 #footer {
