@@ -3755,11 +3755,6 @@ ul.actions.stacked-buttons .button {
 
 /* === AUTUMN BLUE ACCENT COLOR === */
 
-/* Footer background */
-#footer {
-  background: #1b89dc !important;
-}
-
 /* Portfolio regular text links only, not buttons */
 #portfolio a:not(.button),
 .flagship-project a:not(.button) {
@@ -3814,13 +3809,15 @@ ul.actions.stacked-buttons .button {
   background: #17324d !important;
 }
 
-/* === FIX FOOTER OVERLAP === */
+/* === FIX FOOTER OVERLAP + FOOTER COLOR === */
 
 #footer {
-  margin-top: 0 !important;
-  padding-top: 5em !important;
+  background: #1b89dc !important;
+  margin-top: 4em !important;
+  padding: 5em 0 4em 0 !important;
+  clear: both !important;
 }
 
 .skills-box {
-  margin-bottom: 5em !important;
+  margin-bottom: 4em !important;
 }
