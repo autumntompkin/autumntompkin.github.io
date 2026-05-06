@@ -3536,23 +3536,25 @@ input, select, textarea {
 
 
 
-/* Fix Making Security Risk Simple readability */
+/* Fix Making Risk Simple readability */
 
-.risk-box .simple-risk-box {
+.simple-risk-box {
   margin-top: 2.5em;
   padding-top: 2em;
   border-top: 1px solid rgba(255, 255, 255, 0.35);
   text-align: left;
 }
 
-.risk-box .simple-risk-box h2 {
+.simple-risk-box h2 {
   text-align: center;
   color: #ffffff !important;
   margin-bottom: 1.25em;
 }
 
-.risk-box .simple-risk-box p,
-.risk-box .simple-risk-box li {
+.simple-risk-copy {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: left;
   color: #ffffff !important;
   font-size: 1em !important;
   line-height: 1.7em !important;
@@ -3561,23 +3563,28 @@ input, select, textarea {
   font-weight: 400 !important;
 }
 
-.risk-box .simple-risk-box p {
-  max-width: 620px;
-  margin: 0 auto 1.25em auto;
-  text-align: left;
-}
-
-.risk-box .simple-risk-box ul {
-  max-width: 620px;
-  margin: 0.5em auto .75em auto;
+.simple-risk-copy ul {
+  margin: 0.75em 0;
   padding-left: 1.25em;
   text-align: left;
 }
 
-.risk-box .simple-risk-box a {
+.simple-risk-copy li {
+  color: #ffffff !important;
+  font-size: 1em !important;
+  line-height: 1.7em !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  font-weight: 400 !important;
+}
+
+.simple-risk-box a {
   color: #ffffff !important;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.75);
 }
+
+
+
 
 #footer p {
   color: #ffffff;
