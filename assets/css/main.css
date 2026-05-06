@@ -3821,3 +3821,37 @@ ul.actions.stacked-buttons .button {
 .skills-box {
   margin-bottom: 4em !important;
 }
+
+/* === FIX FOOTER DESIGN === */
+
+#footer {
+  background-color: #1b89dc !important;
+  background-image: url("images/bottom-3200.svg") !important;
+  background-position: top center !important;
+  background-repeat: repeat-x !important;
+  background-size: 3200px 460px !important;
+  margin-top: -160px !important;
+  padding: calc(460px + 4em) 0 6em 0 !important;
+  position: relative !important;
+  text-align: center !important;
+}
+
+/* Remove the vertical line through the footer */
+#footer:before {
+  display: none !important;
+}
+
+/* Fix footer button color */
+#footer .button,
+#footer .button.primary {
+  background: #ffffff !important;
+  color: #1b89dc !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#footer .button:hover,
+#footer .button.primary:hover {
+  background: #e8f4ff !important;
+  color: #1269aa !important;
+}
