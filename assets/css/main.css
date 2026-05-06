@@ -3772,3 +3772,15 @@ ul.actions.stacked-buttons .button {
   color: #1269aa !important;
   border-bottom-color: transparent !important;
 }
+
+/* Footer resume button */
+#footer .button {
+  background: #ffffff !important;
+  color: #1b89dc !important;
+  border: none !important;
+}
+
+#footer .button:hover {
+  background: #e8f4ff !important;
+  color: #1269aa !important;
+}
