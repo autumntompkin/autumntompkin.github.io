@@ -3614,7 +3614,7 @@ input, select, textarea {
 
 #footer .button.primary {
   background: #ffffff;
-  color: #4eb980 !important;
+  color: ##1b89dc !important;
 }
 
 /* MOBILE FIX: prevent portfolio cards from getting cut off */
@@ -3776,7 +3776,7 @@ ul.actions.stacked-buttons .button {
 /* Footer resume button */
 #footer .button {
   background: #ffffff !important;
-  color: #1b89dc !important;
+  color: ##1b89dc !important;
   border: none !important;
 }
 
