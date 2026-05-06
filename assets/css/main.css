@@ -3758,13 +3758,13 @@ ul.actions.stacked-buttons .button {
 /* Portfolio regular text links only, not buttons */
 #portfolio a:not(.button),
 .flagship-project a:not(.button) {
-  color: #1b89dc !important;
+  color: #17324d !important;
   border-bottom-color: rgba(27, 137, 220, 0.35) !important;
 }
 
 #portfolio a:not(.button):hover,
 .flagship-project a:not(.button):hover {
-  color: #1269aa !important;
+  color: #17324d !important;
   border-bottom-color: transparent !important;
 }
 
