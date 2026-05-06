@@ -3569,7 +3569,7 @@ input, select, textarea {
 
 .risk-box .simple-risk-box ul {
   max-width: 620px;
-  margin: 1em auto 1.5em auto;
+  margin: 0.5em auto .75em auto;
   padding-left: 1.25em;
   text-align: left;
 }
