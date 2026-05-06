@@ -3640,3 +3640,23 @@ input, select, textarea {
 .flagship-project .actions {
   margin-top: 2em;
 }
+
+
+
+/* Header buttons */
+
+.header-buttons {
+  margin-top: 2em;
+}
+
+.header-buttons .hero-button {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.header-buttons .hero-button:hover {
+  background: #f1f1f1 !important;
+  color: #000000 !important;
+}
