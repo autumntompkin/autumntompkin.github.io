@@ -3795,52 +3795,49 @@ ul.actions.stacked-buttons .button {
 }
 
 
-/* === FINAL FOOTER FIX: BLUE FOOTER + CLEAN WHITE V === */
+/* === FOOTER MATCH HEADER === */
 
-/* Keep Skills separate from footer */
 .skills-box {
-  margin-bottom: 4em !important;
+  margin-bottom: 2.5em !important;
   overflow: visible !important;
 }
 
-/* Footer base */
 #footer {
-  background: #1b89dc !important;
-  background-image: none !important;
+  background-color: #1b89dc !important;
+  background-image: url("images/bottom-3200.svg") !important;
+  background-position: top center !important;
+  background-repeat: repeat-x !important;
+  background-size: 3200px 460px !important;
   margin-top: 0 !important;
-  padding: 0 0 5em 0 !important;
+  padding: calc(460px + 3em) 0 5em 0 !important;
   clear: both !important;
   position: relative !important;
   text-align: center !important;
   overflow: hidden !important;
 }
 
-/* Remove old theme footer line/shape behavior */
-#footer:before,
+/* Restore subtle center line for symmetry */
+#footer:before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  width: 1px !important;
+  height: 100% !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+  transform: translateX(-50%) !important;
+  display: block !important;
+}
+
+/* Kill any extra custom pseudo-elements */
 #footer:after {
   display: none !important;
   content: none !important;
 }
 
-/* New clean V wrapper */
 #footer .container {
   position: relative !important;
   z-index: 1 !important;
-  padding-top: 12em !important;
-}
-
-/* Create clean white V above footer content */
-#footer .container:before {
-  content: "" !important;
-  position: absolute !important;
-  top: 0 !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  width: 100vw !important;
-  height: 10em !important;
-  background: #ffffff !important;
-  clip-path: polygon(0 0, 100% 0, 50% 100%) !important;
-  z-index: -1 !important;
 }
 
 /* Footer text */
@@ -3858,7 +3855,7 @@ ul.actions.stacked-buttons .button {
   border-bottom-color: rgba(255, 255, 255, 0.45) !important;
 }
 
-/* Footer resume button */
+/* Footer button */
 #footer .button,
 #footer .button.primary,
 #footer a.button,
@@ -3870,7 +3867,6 @@ ul.actions.stacked-buttons .button {
   box-shadow: none !important;
 }
 
-/* Footer resume button hover */
 #footer .button:hover,
 #footer .button.primary:hover,
 #footer a.button:hover,
